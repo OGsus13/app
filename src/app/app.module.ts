@@ -8,6 +8,7 @@ import { CardcomponentComponent } from './cardcomponent/cardcomponent.component'
 import { NewsComponent } from './pages/news/news.component';
 import { CardRegisterComponent } from './pages/card-register/card-register.component';
 import {HttpClientModule} from '@angular/common/http';
+import { MarvelComponent } from './pages/marvel/marvel.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {HttpClientModule} from '@angular/common/http';
     AppComponent,
     CardcomponentComponent,
     NewsComponent,
-    CardRegisterComponent
+    CardRegisterComponent,
+    MarvelComponent
   ],
   imports: [
     FormsModule,

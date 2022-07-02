@@ -1,0 +1,6 @@
+
+<app-cardcomponent *ngFor= "let marvel of marvels"
+[cardTitle]="marvel.name"
+[descripcion]="marvel.description"
+[boton]="'Go to' + marvel.thumbnail" 
+></app-cardcomponent>
